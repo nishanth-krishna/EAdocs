@@ -1,9 +1,20 @@
 title: OpenSearch documentation
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation for OpenSearch, the Apache 2.0 search, analytics, and visualization suite with advanced security, alerting, SQL support, automated index management, deep performance analysis, and more.
-baseurl: "/docs/latest" # the subpath of your site, e.g. /blog
-url: "https://opensearch.org" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/docs/latest" # the subpath of your site, e.g. /blog
+# url: "https://opensearch.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:path/
+
+
+
+
+domain: my-site.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://my-site.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
+
+
+
+
 
 opensearch_version: 2.5.0
 opensearch_dashboards_version: 2.5.0
